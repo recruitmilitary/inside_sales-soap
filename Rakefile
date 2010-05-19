@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "inside_sales-soap"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{a Ruby SOAP client for interacting with the InsideSales API}
+    gem.description = %Q{a Ruby SOAP client for interacting with the InsideSales API.  This library is mostly automatically generated files from soap4r at this point.}
     gem.email = "mguterl@gmail.com"
     gem.homepage = "http://github.com/mguterl/inside_sales-soap"
     gem.authors = ["Michael Guterl"]
