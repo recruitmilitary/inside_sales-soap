@@ -291,7 +291,9 @@ module DefaultMappingRegistry
       ["customFields_23", ["SOAP::SOAPString", XSD::QName.new(nil, "customFields_23")]],
       ["customFields_15", ["InsideSales::SOAP::ArrayOfstring", XSD::QName.new(nil, "customFields_15")]],
       ["customFields_19", ["SOAP::SOAPBoolean", XSD::QName.new(nil, "customFields_19")]],
-      ["customFields_21", ["InsideSales::SOAP::ArrayOfstring", XSD::QName.new(nil, "customFields_21")]]
+      ["customFields_21", ["InsideSales::SOAP::ArrayOfstring", XSD::QName.new(nil, "customFields_21")]],
+      ["customFields_26", ["SOAP::SOAPBoolean", XSD::QName.new(nil, "customFields_26")]],
+      ["customFields_24", ["SOAP::SOAPString", XSD::QName.new(nil, "customFields_24")]],
     ]
   )
 

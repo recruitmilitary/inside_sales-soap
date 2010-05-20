@@ -408,7 +408,7 @@ class Lead
   attr_accessor :customFields_19
   attr_accessor :customFields_21
 
-  def initialize(id = nil, external_id = nil, owner_user_id = nil, owner_user_ids = nil, owner_first_name = nil, owner_last_name = nil, date_created = nil, created_by_user_id = nil, date_modified = nil, modified_by_user_id = nil, account_id = nil, account_number = nil, name_prefix = nil, first_name = nil, middle_name = nil, last_name = nil, title = nil, phone = nil, mobile_phone = nil, fax = nil, home_phone = nil, email = nil, email_opt_out = nil, website = nil, addr1 = nil, addr2 = nil, city = nil, state = nil, state_abbrev = nil, zip = nil, country = nil, country_abbrev = nil, assistant_first_name = nil, assistant_last_name = nil, assistant_phone = nil, company_name = nil, industry = nil, annual_revenue = nil, ticker_symbol = nil, number_of_employees = nil, company_website = nil, account_ownership = nil, campaign_id = nil, campaign = nil, status = nil, source = nil, rating = nil, description = nil, external_object = nil, do_not_call = nil, fed_do_not_call = nil, lead_score = nil, add_lead_flags = nil, status_changed_date = nil, customFields_17 = nil, customFields_7 = nil, customFields_23 = nil, customFields_15 = nil, customFields_19 = nil, customFields_21 = nil)
+  def initialize(id = nil, external_id = nil, owner_user_id = nil, owner_user_ids = nil, owner_first_name = nil, owner_last_name = nil, date_created = nil, created_by_user_id = nil, date_modified = nil, modified_by_user_id = nil, account_id = nil, account_number = nil, name_prefix = nil, first_name = nil, middle_name = nil, last_name = nil, title = nil, phone = nil, mobile_phone = nil, fax = nil, home_phone = nil, email = nil, email_opt_out = nil, website = nil, addr1 = nil, addr2 = nil, city = nil, state = nil, state_abbrev = nil, zip = nil, country = nil, country_abbrev = nil, assistant_first_name = nil, assistant_last_name = nil, assistant_phone = nil, company_name = nil, industry = nil, annual_revenue = nil, ticker_symbol = nil, number_of_employees = nil, company_website = nil, account_ownership = nil, campaign_id = nil, campaign = nil, status = nil, source = nil, rating = nil, description = nil, external_object = nil, do_not_call = nil, fed_do_not_call = nil, lead_score = nil, add_lead_flags = nil, status_changed_date = nil, customFields_17 = nil, customFields_7 = nil, customFields_23 = nil, customFields_15 = nil, customFields_19 = nil, customFields_21 = nil, customFields_26 = nil, customFields_24 = nil)
     @id = id
     @external_id = external_id
     @owner_user_id = owner_user_id
@@ -469,6 +469,8 @@ class Lead
     @customFields_15 = customFields_15
     @customFields_19 = customFields_19
     @customFields_21 = customFields_21
+    @customFields_26 = customFields_26
+    @customFields_24 = customFields_24
   end
 end
 
