@@ -261,7 +261,7 @@ module DefaultMappingRegistry
       ["city", ["SOAP::SOAPString", XSD::QName.new(nil, "city")]],
       ["state", ["SOAP::SOAPString", XSD::QName.new(nil, "state")]],
       ["state_abbrev", ["SOAP::SOAPString", XSD::QName.new(nil, "state_abbrev")]],
-      ["zip", ["SOAP::SOAPInt", XSD::QName.new(nil, "zip")]],
+      ["zip", ["SOAP::SOAPString", XSD::QName.new(nil, "zip")]],
       ["country", ["SOAP::SOAPString", XSD::QName.new(nil, "country")]],
       ["country_abbrev", ["SOAP::SOAPString", XSD::QName.new(nil, "country_abbrev")]],
       ["assistant_first_name", ["SOAP::SOAPString", XSD::QName.new(nil, "assistant_first_name")]],
