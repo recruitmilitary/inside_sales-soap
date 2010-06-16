@@ -1,9 +1,13 @@
 = inside_sales-soap
 
-Description goes here.
+= WSDL
+
+cd lib/inside_sales/soap
+wsdl2ruby.rb --force --classdef --mapping_registry --client_skelton --driver --module_path InsideSales::SOAP --wsdl https://recruitmilitary.insidesales.com/do=noauth/soap/service?wsdl
+
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
